@@ -7,6 +7,8 @@ local popup_width = 250
 local volume = sbar.add("item", "widgets.volume", {
   position = "right",
   icon = {
+    padding_left = settings.padding_small,
+    padding_right = settings.padding_small,
     font = {
       style = settings.font.style_map["Regular"],
       size = settings.icon_size_large,
@@ -14,6 +16,8 @@ local volume = sbar.add("item", "widgets.volume", {
   },
   label = {
     color = colors.white,
+    padding_right = settings.padding_medium,
+    padding_left = settings.padding_medium,
     font = {
       family = settings.font.numbers,
       size = settings.font_size_medium

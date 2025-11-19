@@ -4,21 +4,22 @@ local colors = require("colors")
 local cal = sbar.add("item", "calendar", {
   icon = {
     color = colors.white,
-    padding_left = settings.padding_small,
-    padding_right = settings.padding_small,
+    padding_left = settings.padding_medium,
+    padding_right = settings.padding_medium,
     font = {
       style = settings.font.style_map["Black"],
-      size = settings.font_size_small,
+      size = settings.font_size_medium,
     },
   },
   label = {
     color = colors.white,
-    padding_right = settings.padding_small,
-    width = 55,
+    padding_right = settings.padding_medium,
+    padding_left = settings.padding_medium,
+    width = 65,
     align = "right",
     font = { 
       style = settings.font.style_map["Black"],
-      size = settings.font_size_small
+      size = settings.font_size_medium
     },
   },
   position = "right",

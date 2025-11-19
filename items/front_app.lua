@@ -5,10 +5,12 @@ local front_app = sbar.add("item", "front_app", {
   display = "active",
   icon = { drawing = false },
   label = {
+    padding_right = settings.padding_medium,
+    padding_left = settings.padding_medium,
     color = colors.white,
     font = {
       style = settings.font.style_map["Black"],
-      size = settings.font_size_small,
+      size = settings.font_size_medium,
     },
   },
 
